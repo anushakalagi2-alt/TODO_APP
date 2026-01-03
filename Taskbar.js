@@ -6,8 +6,7 @@ export class Task extends Component {
     super(props)
   
     this.state = {
-      
-       input:'',
+      input:'',
        priority:'low',
        tasks:[]
     }
@@ -115,3 +114,4 @@ export class Task extends Component {
 
 
 export default Task
+
